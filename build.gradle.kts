@@ -1,6 +1,6 @@
 plugins {
     kotlin("android") version "2.1.20"
-    id("com.mikepenz.aboutlibraries.plugin") version "12.0.0"
+    id("com.mikepenz.aboutlibraries.plugin") version "12.1.0"
     id("com.android.application") version "8.9.2"
 }
 
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.mikepenz:aboutlibraries:12.0.0")
+    implementation("com.mikepenz:aboutlibraries:12.1.0")
     implementation("jakarta.inject:jakarta.inject-api:2.0.1")
 }
 
